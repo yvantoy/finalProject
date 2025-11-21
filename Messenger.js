@@ -655,6 +655,11 @@ const Messenger = () => {
                   </Text>
                 </View>
 
+                <View style={styles.infoRow}>
+                  <Text style={styles.infoLabel}>Address:</Text>
+                  <Text style={styles.infoValue}>Purok 1 Acacia, Cambangay Norte, San Miguel, Bohol</Text>
+                </View>
+
                 {currentUser && currentUser.address ? (
                   <View style={styles.infoRow}>
                     <Text style={styles.infoLabel}>Address:</Text>
